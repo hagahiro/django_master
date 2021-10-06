@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<div>
+    <h2>about page</h2>
+    <div>
+        <h3>achivement</h3>
+        <a>私はこれまでに{{num_services}}個のサービスを開発しました。</a>
+    </div>
+    <div>
+        <h3>skills</h3>
+        <ul>
+            {% for skill in skills %}
+            <li>{{skill}}</li>
+            {% empty %}
+            <li>no skill</li>
+            {% endfor %}
+        </ul>
+ 
+    </div>
+
+</div>
+
+
+{% endblock %}

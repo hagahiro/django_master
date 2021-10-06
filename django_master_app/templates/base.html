@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'master_css.css' %}">
+    </head>
+    <body class = "navbar">
+        <h1>django_master</h1>
+        {% include "_navbar.html" %}
+        {% block main %}
+        {% endblock %}
+    </body>
+</html>
