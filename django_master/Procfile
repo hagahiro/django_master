@@ -1,1 +1,2 @@
+;HEROKUを利用するための記述 gunicornでdjango_master.wsgiを実行するという意味
 web : gunicorn django_master.wsgi

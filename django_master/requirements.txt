@@ -1,3 +1,5 @@
+# HEROKUを使用するための記述 requwirements.txt fileはprojectの直下に作成する。
+
 django
 whitenoise
 gunicorn
